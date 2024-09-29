@@ -1,0 +1,143 @@
+.background{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    height:100vh;
+    width:100vw;
+    background-color:#6256CA;
+}
+
+
+.taskbar{
+    margin-top:30px;
+    height:35px;
+    margin-bottom:30px;
+    display:flex;
+    width: 750px;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.searchcover{
+    height:32px;
+    width:370.5px;
+    background-color:white;
+    border-radius:3px;
+    box-shadow: 2px 2px 7px;
+
+    
+  
+}
+
+.text{
+    height:27px;
+    width:300px;
+    border:1.5px solid rgba(0,255,0,0.5);
+    border-top-left-radius: 3px;;
+    border-bottom-left-radius: 3px;
+    border-right:none;
+
+    
+}
+
+.btn{
+    
+    border-top-right-radius: 3px;;
+    border-bottom-right-radius: 3px;;
+    border:1.5px solid rgba(0,255,0,0.5);
+    background-color:rgba(0,255,0,0.5);
+    color:white;
+    font-family:sans-serif;
+    font-weight:bold;
+    border-left:none;
+    height:32px;
+    width:65px;
+    cursor:pointer;
+}
+.btn:hover{
+    border:1.5px solid rgb(0, 208, 0);
+    background-color:rgba(0, 208, 0);
+    border-left:none;
+
+}
+
+.list{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    padding-right:10px;
+    height:500px;
+    width: 700px;
+}
+
+.task{
+    border-radius:7px;
+    padding-right:10px;
+    background-color:white;
+    justify-content:space-between;
+    text-align:center;
+    align-items:center;
+    display:flex;
+    height:45px;
+    width:600px;
+    margin:11px;
+    font-family:sans-serif;
+    font-size:20px;
+    box-shadow : 0px 3px 10px ;
+
+}
+.tasktext{
+    font-weight:bold;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:40px;
+    width:430px;
+  
+}
+.delete{
+    background-color : rgba(0,255,0,0.5);
+    border:none;
+    width:70px;
+    height:40px;
+    border-radius:5px;
+    color:white;
+    font-weight:bold;
+    
+    
+}
+
+.delete:hover{
+    background-color : rgba(2, 198, 2, 0.5);
+
+}
+
+.upbtn{
+    background-color:aqua;
+    border:none;
+    height:40px;
+    width:40px;
+    border-radius:5px;
+    
+    
+}
+.upbtn:hover{
+    background-color:rgb(0, 184, 184);
+
+}
+.downbtn{
+    background-color:aqua;
+    border-radius:5px;
+    border:none;
+    height:40px;
+    width:40px;
+
+}
+
+.downbtn:hover{
+    background-color:rgb(0, 184, 184);
+
+}

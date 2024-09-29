@@ -1,0 +1,62 @@
+.box{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    border:2px solid;
+    height:155px;
+    width: 300px;
+    box-shadow:1px 1px 10px  black;
+    margin:10px;
+   
+    
+}
+.screen{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:rgb(104, 245, 255);
+    border:2px solid;
+    width:280px;
+    margin-top:5px;
+    height:95px;
+}
+.number{
+    font-family:sans-serif;
+    font-size:55px;
+
+
+}
+
+.buttons{
+    display:flex;
+    height:50px;
+    width:280px;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom:5px;
+}
+.button{
+    border:1px solid black;
+    margin-top:5px;
+    padding:10px;
+
+}
+.decrement{
+    background-color: rgba(255, 0, 0, 0.616);
+    color:white;
+}
+
+.increment{
+    background-color: rgba(0, 255, 0, 0.781);
+    color:white;
+}
+.reset{
+    background-color: rgba(0, 0, 255, 0.616);
+    color:white;
+}
+
+.button:hover{
+    box-shadow:0px 1px 3px black;
+    color:black; 
+    border: 1px solid;
+}
